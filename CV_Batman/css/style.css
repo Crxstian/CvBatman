@@ -11,6 +11,8 @@ h1{
     font-size: 35px;
     background-color:#C4C4C4;
     color:#005677;
+    letter-spacing: 5px;
+
 }
 .cuadradoBlanco{
     width: 1440px;
@@ -26,6 +28,9 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
     font-size: 20px;
+    text-indent: 20px;
+    letter-spacing: 5px;
+
 }
 footer{
     background-color: #005677;
