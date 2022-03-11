@@ -11,6 +11,7 @@ h1{
     font-size: 35px;
     background-color:#C4C4C4;
     color:#005677;
+    height: 60px;
     letter-spacing: 5px;
 
 }
@@ -46,4 +47,7 @@ footer p{
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
+}
+li{
+    text-indent: 20px;
 }
