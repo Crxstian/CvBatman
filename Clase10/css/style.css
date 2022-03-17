@@ -9,7 +9,7 @@ header div p{
 }
 header{
     font-weight: regular;
-    font-family: "Roboto",sans-serif;
+    font-family: 'Roboto',sans-serif;
     text-transform: capitalize;
 
 }
@@ -22,7 +22,7 @@ h1{
 }
 section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -44,6 +44,9 @@ section article div{
     background-size: cover;
     padding: 15px;
     border-radius: 16px 16px 0px 0px;
+}
+section article.harley div{
+    background: url(../img/harley-fondo.png);    
 }
 section article div img.corazon{
     position: absolute;
