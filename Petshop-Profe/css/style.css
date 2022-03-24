@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header div{
+    background-color: black;
+    color: white;
+    padding: 4px 60px 4px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header div.secondHeader{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 50px;
+}
+
+header div.secondHeader nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header div.secondHeader nav ul li{
+    margin-left: 10px;
+}
+
+
+main section{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 105px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
