@@ -120,13 +120,13 @@ footer img{
 }
 
 @media (max-width: 1250px) {
-html{
-    background-color: blueviolet;
-    font-size: 18px;
-    }
-section article{
+    html{
+        background-color: blueviolet;
+        font-size: 18px;
+        }
+    section article{
 
-    width: 35%;
+        width: 35%;
     }
 }
 @media (max-width: 730px) {
