@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto";
+}
+header section article{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px 10px 90px;
+    align-items: center;
+}
+header section article div span{
+    margin-left: 40px;
+}
+header section article.inferior{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 40px;
+}
+header section article.inferior nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+header section article.inferior nav ul li{
+    margin-left: 40px;
+}
+main section.medio{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 130px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main section.medio div{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    background-color: white;
+    padding:10px;
+}
+main section div p{
+    padding: 20px;
+}
+main section div button{
+    text-transform: uppercase;
+    background-color: #F0A83E;
+    color:white;
+    padding: 15px 23px;
+    border: none;
+}
+main section.productos div{
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: center;
+}
+main section.productos div h1{
+    color:#3C2313;
+    font-weight: 700;
+    font-size: 40px;
+}
+main section.productos div ul{
+    padding: 30px;
+    display: flex;
+    list-style-type: none;
+    margin-right: 60px;
+}
+section.productos div ul li{
+    margin-left: 50px;
+    color:#666666;
+    ;
+}
+article.galeria div h4{
+    color: #3C2313;
+    background-color:#FBFAF6;
+    padding: 6px 55.2px;
+    margin: 6px auto;
+}
+article.galeria div p{
+    color:#F0A83E;
+    background-color:#FBFAF6;
+    padding: 4px 113.26px;
+}
+article.galeria{
+    display: flex;
+    justify-content: space-evenly;
+}
+.formulario h3{
+    color: #3C2313;
+    font-size: 30px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form.mid input{
+    font-size: 1.1rem;
+    border-radius: 50vh;
+    padding: 7px 90px;
+    margin: 5px 0;
+    background-color: #3C2313;
+}
+.mid div button{
+    margin-top: 40px;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 50vh;
+    color: white;
+    border: none;
+}
+.reset{
+    background-color: #8A8787;
+
+}
+.submit{
+    background-color:#F0A83E;
+}
+footer{
+    margin-top: 50px;
+}
+.footerSup{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 30px;
+    align-items: center;
+}
+.footerSup p{
+    font-size: 20px;
+    color: white;
+}
+.footerSup form input{
+    font-size: 1.1rem;
+    border-radius: 50vh;
+    padding: 10px 70px;
+    margin: 5px 0;
+    border: none;
+}
+.botonFooter{
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 50vh;
+    background-color: #3C2313;
+    color: white;
+    border: none;
+}
