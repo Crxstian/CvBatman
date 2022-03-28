@@ -72,7 +72,8 @@ main section.productos div h1{
     font-size: 40px;
 }
 main section.productos div ul{
-    padding: 30px;
+    padding-top: 20px;
+    justify-content: space-between;
     display: flex;
     list-style-type: none;
     margin-right: 60px;
@@ -86,7 +87,7 @@ article.galeria div h4{
     color: #3C2313;
     background-color:#FBFAF6;
     padding: 6px 55.2px;
-    margin: 6px auto;
+    margin: 0px auto;
 }
 article.galeria div p{
     color:#F0A83E;
@@ -96,6 +97,7 @@ article.galeria div p{
 article.galeria{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .formulario h3{
     color: #3C2313;
@@ -145,12 +147,23 @@ footer{
     font-size: 20px;
     color: white;
 }
+.footerSup form{
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+    
+.formBut{
+    display: flex;
+
+}
 .footerSup form input{
     font-size: 1.1rem;
     border-radius: 50vh;
     padding: 10px 70px;
     margin: 5px 0;
     border: none;
+
 }
 .botonFooter{
     width: 120px;
@@ -160,3 +173,52 @@ footer{
     color: white;
     border: none;
 }
+@media (max-width:480px){
+article.superior{
+    display: none;
+    }
+article.inferior nav{
+    display: none;
+    }
+
+main section.medio div{
+    margin-right: 60px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+main section div p{
+    padding: 10px;
+}
+main section.medio{    
+    background-size:auto;    
+}
+.productos h1{
+    text-align: center;
+}
+section.productos div ul li{
+    margin-left: 15px;
+    color:#666666;
+    justify-content: space-between;
+    font-size: 13px;
+    
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+}
+form.mid input{
+    padding: 5px 40px;  
+}
+.mid div button{
+    width: 160px;
+}
+
+
+
+}
+
+@media (min-width:1280px){
+    body {background-color:blue;}
+}
+

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75.13px 0;
+    background-color: aqua;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    color: #242E52;
+    font-size: 13px;
+    margin-left: 28px;
+}
+
+button.getStarted{
+    font-size: 13.18px;
+    padding: 12.5px 30.5px;
+    border-radius: 50px;
+    background-color: #F3603B;
+    color: white;
+    border: none;
+}
+h1{
+    color:#232C50;
+    font-size: 58px;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main section.mainSuperior{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 200px;
+    height: 1200px;    
+}
+.textBanner{
+    display: flex;
+    background-color: blue;
+}
+.textBanner div p{
+    font-size: 16.5584px;
+    font-weight: 500;
+}
+.textYbutton{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin: 40px 50px 60px 0px;
+} 
+.textYbutton p{
+    padding: 28px 170px 20px 0px;
+}
+.prospecto{
+    display: flex;
+    background-color: darkolivegreen;
+    flex-grow: 1;
+}
+h3{
+    color:#232C50;
+    font-size: 36px;
+    font-weight: bold;
+    padding-right: 180px;
+}
+section.text p{
+    padding-right: 220px;
+    padding-top: 36px;
+}
+section.text{
+    width: 50%;
+}
+section.sk1ll{
+    width: 50%;
+}
+section.sk1ll h5{
+    color: #323851;
+    ;
+}
+section.sk1ll p{
+    padding-right: 130px;
+    padding-top: 18px;
+}
+
+
