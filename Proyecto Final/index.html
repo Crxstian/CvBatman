@@ -8,7 +8,7 @@
     <title>Manage</title>
 </head>
 <body>
-    <header>
+    <header class="home">
         <img src="img/logo.svg" alt="logo de manage">
         <nav class="navHeader">
             <ul>
@@ -19,7 +19,8 @@
                 <li>Community</li>
             </ul>
         </nav>
-        <button type="submit" class="getStarted">Get Started</button>
+        <a href="#"><button type="submit" class="getStarted">Get Started</button>
+        </a>
     </header>
     <main>
         <section class="mainSuperior">
@@ -27,7 +28,8 @@
                 <div class="textYbutton">
                     <h1>Bring everyone together to build better products.</h1>
                     <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view</p>
-                    <button type="submit" class="getStarted">Get Started</button>
+                    <a href="#"><button type="submit" class="getStarted">Get Started</button>
+                    </a>
                 </div>
                 <div class="grafico">
                     <img src="img/illustration-intro.svg" alt="Graficos ">
@@ -39,52 +41,56 @@
                     <p>Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
                 </section>
     
-                <section class="sk1ll">
+                <section class="items">
                 <div class="skills">
-                    <button type="submit">01</button>
+                    <span>01</span>
                     <h5>Track company-wide progress</h5>
                     <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
                 </div>
                 <div class="skills">
-                    <button type="submit">02</button>
+                    <span>02</span>
                     <h5>Advance built-in reports</h5>
                     <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
                 </div>
                 <div class="skills">
-                    <button type="submit">03</button>
+                    <span>03</span>
                     <h5>Everything you need in one place</h5>
                     <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
                 </div>            
                 </section>
             </article>
         </section>
-
-        <section class="galeria">
-            <h3>What they´ve said</h3>
-            <article class="cards">
-                <img src="img/avatar-anisha.png" alt="Foto de anisha">
-                <h5>Ali Bravo</h5>
-                <p>“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+        <section class="midFooter">
+            <h2>What they´ve said</h2>
+            <article class="galeria">
+                <div class="cards">
+                    <img src="img/avatar-anisha.png" alt="Foto de anisha">
+                    <h5>Ali Bravo</h5>
+                    <p>“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+                </div>
+                <div class="cards">
+                    <img src="img/avatar-ali.png" alt="Foto de ali">
+                    <h5>Ali Bravo</h5>
+                    <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+                </div>
+                <div class="cards">
+                    <img src="img/avatar-richard.png" alt="Foto de Richard">
+                    <h5>Ali Bravo</h5>
+                    <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</p>
+                </div>
             </article>
-            <article class="cards">
-                <img src="img/avatar-ali.png" alt="Foto de ali">
-                <h5>Ali Bravo</h5>
-                <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
-            </article>
-            <article class="cards">
-                <img src="img/avatar-richard.png" alt="Foto de Richard">
-                <h5>Ali Bravo</h5>
-                <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</p>
-            </article>
-            <button type="submit">Get Started</button>
+            <a href="#"><button type="submit" class="getStarted">Get Started</button>
+            </a>
         </section>
     </main>
     <footer>
-        <header>
+        <header class="footerSup">
             <h2>Simplify hoy your team words today.</h2>
-            <button type="submit" class="botonFooter">Get Started</button>
+            <a href="#">
+                <button type="submit" class="getStarted2">Get Started</button>
+            </a>
         </header>
-        <footer>
+        <footer class="footerEnd">
             <section class="logoSocialMedia"> 
                 <img src="img/logo.svg" alt="Logo de manage">
                 <div class="socialMedia">
@@ -96,34 +102,29 @@
                 </div>
             </section>
             <section class="politicas">
-<!--                 <div class="columna1">
-                    <p>Home</p>
-                    <p>Pricing</p>
-                    <p>Products</p>
-                    <p>About Us</p>
+                <div class="column1">
+                    <ul>
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>Products</li>
+                        <li>About Us</li>
+                    </ul>                    
                 </div>
-                <div class="columna2">
-                    <p>Careers</p>
-                    <p>Community</p>
-                    <p>Privacity Policy</p>
-                </div> -->
-                <ul>
-                    <li>Home</li>
-                    <li>Pricing</li>
-                    <li>Products</li>
-                    <li>About Us</li>
-                </ul>
-                <ul>
-                    <li>Careers</li>
-                    <li>Community</li>
-                    <li>Privacity Policy</li>
-                </ul>
+                <div class="column2">
+                    <ul>
+                        <li>Careers</li>
+                        <li>Community</li>
+                        <li>Privacity Policy</li>
+                    </ul>
+                </div>
             </section>
             <section class="formEnd">
                 <div class="emailButton">
                     <form action="post">
                         <input type="email" placeholder="Update in your inbox">
-                        <button type="submit">Go</button>
+                        <a href="#">
+                            <button type="submit">Go</button>
+                        </a>
                     </form>
                 </div>
                 <div class="copyRight">

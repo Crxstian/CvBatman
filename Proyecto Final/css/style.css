@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
-
 *{
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
 }
-
+h1,h3{
+    color: #232C50;
+}
+.getStarted, .skills span, .footerSup, .emailButton form button{
+    background-color: #F3603B;
+}
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 75.13px 0;
-    background-color: aqua;
 }
-
+.home{
+    padding: 75.13px ; 
+}
 header nav ul{
     display: flex;
     list-style: none;
@@ -26,17 +30,14 @@ header nav ul li{
     font-size: 13px;
     margin-left: 28px;
 }
-
 button.getStarted{
     font-size: 13.18px;
     padding: 12.5px 30.5px;
     border-radius: 50px;
-    background-color: #F3603B;
     color: white;
     border: none;
 }
 h1{
-    color:#232C50;
     font-size: 58px;
     font-weight: bold;
 }
@@ -49,56 +50,177 @@ main section.mainSuperior{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    padding: 40px 200px;
-    height: 1200px;    
+    padding: 40px 150px;  
 }
 .textBanner{
     display: flex;
-    background-color: blue;
 }
 .textBanner div p{
     font-size: 16.5584px;
     font-weight: 500;
 }
 .textYbutton{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
-    margin: 40px 50px 60px 0px;
 } 
+.grafico{
+    margin-left: 146px;
+}
 .textYbutton p{
     padding: 28px 170px 20px 0px;
 }
 .prospecto{
     display: flex;
-    background-color: darkolivegreen;
-    flex-grow: 1;
+    margin-top: 180px;
 }
 h3{
-    color:#232C50;
     font-size: 36px;
     font-weight: bold;
-    padding-right: 180px;
 }
 section.text p{
-    padding-right: 220px;
+    padding-right: 200px;
     padding-top: 36px;
 }
-section.text{
-    width: 50%;
+.skills span{
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: white;
+    border: none;
 }
-section.sk1ll{
-    width: 50%;
+.items{
+    margin-left: 150px;
 }
-section.sk1ll h5{
+section.items h5{
     color: #323851;
-    ;
+    display: inline;
+    font-size: 16px;
+    padding-left: 27px;
 }
-section.sk1ll p{
-    padding-right: 130px;
-    padding-top: 18px;
+section.items p{
+    color: #B3B2B7;
+    padding-right: 0px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+/* Galeria What they´ve said */
+.midFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midFooter h2 {
+    color: #242E53;
+    font-size: 39.21px;
+}
+.galeria {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+.galeria .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 445px;
+    height: 219px;
+    background: #FAFAFA;
+    position: relative;
+}
+.galeria .cards img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 180px;
+}
+.cards h5{
+    color: #3F4868;
+    font-size: 16.07px;
+    margin-top: 80px;
+}
+.cards p{
+    color: #B9B9C1;
+    margin-top: 21px;
+    text-align: center;
+}
+.midFooter button{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+/* Footer final */
+.footerSup{
+    height: 247px;
+}
+footer header h2{
+    color: white;
+    font-size: 40px;
+    width: 500px;
+}
+.getStarted2{
+    font-size: 13.18px;
+    padding: 12.5px 30.5px;
+    border-radius: 50px;
+    background-color: white;
+    color:#F3603B;
+    border: none;
+}
+.footerEnd{
+    display: flex;
+    background-color: #1E1E26;
+    justify-content: space-around;
+    align-items: center;
+    height: 247px;
+}
+.logoSocialMedia .footerEnd{
+    display: flex;
+    flex-direction: column;
+}
+.socialMedia{
+    margin-top: 66px;
+}
+.socialMedia img{
+    padding-right: 13.5px;
+}
+.politicas div ul li{
+    list-style: none;
+    padding: 12px 120px;
+    color: white;
+}
+.politicas{
+    display: flex;
+}
+.emailButton form input{
+    font-size: 13.18px;
+    border-radius: 50vh;
+    border: none;
+    padding: 12.5px 48px 12.5px 10px;
+}
+.emailButton form button{
+    border-radius: 50vh;
+    border: none;
+    padding: 11.5px 22.5px;
+    color: white;
+}
+.copyRight{
+    margin-top: 66px;
+    color: #8C8C94;
+    font-size: 12.5px;
+    text-align: end;
+}
+
+@media (max-width: 1250px) {
+    main section article.textBanner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section article{
+
+        width: 35%;
+    }
 }
 
 
