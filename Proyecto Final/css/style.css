@@ -1,38 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+* {
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Be Vietnam Pro', sans-serif;
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
     font-size: 16px;
 }
-h1,h3{
-    color: #232C50;
+h1,
+h3 {
+    color: #232c50;
 }
-.getStarted, .footerSup, .emailButton form button{
+.getStarted,.footerSup,.emailButton form button {
     cursor: pointer;
-    background-color: #F3603B;
+    background-color: #f3603b;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 75.13px ; 
+    padding: 75.13px;
 }
-header nav ul{
+header nav ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
 }
-header nav ul li{
-    color: #242E52;
+header nav ul li {
+    color: #242e52;
     font-size: 13px;
     margin-left: 28px;
 }
-button.getStarted{
+button.getStarted {
     font-size: 13.18px;
     padding: 12.5px 30.5px;
     border-radius: 50px;
@@ -47,101 +48,96 @@ main {
     flex-wrap: wrap;
 }
 /* ------------TEXTO Y GRAFICO -----------*/
-main section.textBanner{
+main section.textBanner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 76%;
     flex-wrap: wrap;
-    /* background-color: grey; */
+  /* background-color: grey; */
 }
-h1{
+h1 {
     font-size: 58px;
     font-weight: bold;
     padding-right: 100px;
 }
-.textYbutton p{
+.textYbutton p {
     font-size: 16.5584px;
     font-weight: medium;
     padding: 28px 360px 20px 0px;
 }
-.textYbutton{
+.textYbutton {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 50%;
-} 
-.grafico{
+}
+.grafico {
     width: 50%;
 }
 /* -------------PARTE DEL MEDIO CON SKILLS ----------*/
-.prospecto{
+.prospecto {
     display: flex;
     justify-content: space-between;
     margin-top: 160px;
     width: 76%;
-    flex-wrap: wrap;
     /* background-color: aqua; */
 }
 .text {
     display: flex;
     flex-direction: column;
-    width: 35%;
     flex-wrap: wrap;
 }
-.text h3{
+.text h3 {
     font-size: 36px;
     font-weight: bold;
 }
-.text p{
+.text p {
     padding: 28px 150px 0 0;
 }
-.items{
-    width: 50%;
+.items {
     height: 50vh;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
-.skills{
+.skills {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
-    
 }
-.skills h5{
+.skills h5 {
     color: #323851;
     display: inline-block;
     font-size: 16px;
 }
-.skills span{
+.skills span {
     padding: 10px 25px;
     border-radius: 50px;
     color: white;
     border: none;
-    background-color: #F3603B;
+    background-color: #f3603b;
     margin-right: 23px;
     font-weight: normal;
 }
-.skills p{
+.skills p {
     margin-top: 20px;
     padding-left: 92px;
     padding-right: 132px;
-    color: #B3B2B7;
+    color: #b3b2b7;
 }
 /* ----------GALERIA WHAT THEY'VE SAID  ------------*/
-.midFooter{
+.midFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 .midFooter h2 {
-    color: #242E53;
+    color: #242e53;
     font-size: 39.21px;
 }
 .galeria {
@@ -150,166 +146,200 @@ h1{
     margin-top: 80px;
     flex-wrap: wrap;
 }
-.galeria .cards{
+.galeria .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 445px;
     height: 219px;
-    background: #FAFAFA;
+    background: #fafafa;
     position: relative;
     flex-wrap: wrap;
 }
-.galeria .cards img{
+.galeria .cards img {
     position: absolute;
     width: 70px;
     height: 70px;
     bottom: 180px;
 }
-.cards h5{
-    color: #3F4868;
+.cards h5 {
+    color: #3f4868;
     font-size: 16.07px;
     margin-top: 80px;
 }
-.cards p{
-    color: #B9B9C1;
+.cards p {
+    color: #b9b9c1;
     margin-top: 21px;
     text-align: center;
 }
-.midFooter button{
+.midFooter button {
     margin-top: 80px;
     margin-bottom: 200px;
 }
 /* --------------FOOTER FINAL----------- */
-.footerSup{
+.footerSup {
     display: flex;
     height: 247px;
     flex-wrap: wrap;
 }
-.footerSup h2{
+.footerSup h2 {
     color: white;
     font-size: 40px;
     width: 500px;
 }
-.getStarted2{
+.getStarted2 {
     font-size: 13.18px;
     padding: 12.5px 30.5px;
     border-radius: 50px;
     background-color: white;
-    color:#F3603B;
+    color: #f3603b;
     border: none;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
-.footerEnd{
+.footerEnd {
     display: flex;
-    background-color: #1E1E26;
+    background-color: #1e1e26;
     justify-content: space-around;
     align-items: center;
     height: 247px;
     flex-wrap: wrap;
 }
-.footerEnd{
+.footerEnd {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.logoSocialMedia{
+.logoSocialMedia {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.socialMedia{
+.socialMedia {
     display: flex;
     margin-top: 66px;
     flex-wrap: wrap;
 }
-.socialMedia img{
+.socialMedia img {
     padding-right: 13.5px;
 }
-.politicas{
+.politicas {
     display: flex;
     flex-wrap: wrap;
 }
-.column ul{
+.column ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.column ul li{
+.column ul li {
     list-style: none;
-    padding: 12px 100px;    
+    padding: 12px 100px;
 }
-.column ul li a{
+.column ul li a {
     text-decoration: none;
     color: white;
 }
-.formEnd{
+.formEnd {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.emailButton{
+.emailButton {
     display: flex;
     flex-wrap: wrap;
 }
-.emailButton form input{
+.emailButton form input {
     font-size: 13.18px;
     border-radius: 50vh;
     border: none;
     padding: 12.5px 48px 12.5px 10px;
 }
-.emailButton form button{
+.emailButton form button {
     border-radius: 50vh;
     border: none;
     padding: 11.5px 22.5px;
     color: white;
 }
-.copyRight{
+.copyRight {
     display: flex;
     flex-direction: column;
     margin-top: 66px;
-    color: #8C8C94;
+    color: #8c8c94;
     font-size: 12.5px;
     text-align: end;
     flex-wrap: wrap;
 }
 /* ----------------MOBILE 375PX --------------------*/
 @media (max-width: 375px) {
-    .navHeader, .home a,header a{
-        display: none;
+    body header {
+    width: 100%;
     }
-    main section.textBanner{
-        flex-direction: column;
-        width: 100%;
+    .navHeader,
+    .home a,
+    header a {
+    display: none;
     }
-    .grafico{
-        order: -1;
-        width: 100vh;
+    main section.textBanner {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
     }
-    .textYbutton{
-        align-items: center;
-        width: 100vh;
+    .grafico img {
+    width: 100%;
     }
-    .textYbutton h1, .textYbutton p{
-        text-align: center;
+    .grafico {
+    order: -1;
+    width: 100%;
     }
-    .textYbutton p{
-        padding: 0;
-        width: 375px;
-        text-align: center;
+    .textYbutton {
+    align-items: center;
+    width: 100%;
     }
-
-
-    .footerSup h2{
-        text-align: center;
+    .textYbutton h1,
+    .textYbutton p {
+    text-align: center;
     }
-    .end{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 375px;
+    .textYbutton p {
+    padding: 0;
+    width: 375px;
+    text-align: center;
     }
-} 
-
-
+    .prospecto {
+    width: 100%;
+    flex-direction: column;
+    }
+    .prospecto.text p {
+    justify-content: center;
+    }
+    .prospecto.items {
+    flex-direction: column;
+    }
+    .text p {
+    text-align: center;
+    }
+    .skills p {
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: left;
+    }
+    .galeria {
+    width: 100%;
+    }
+    .galeria.cards {
+    width: 100%;
+    }
+    .midFooter {
+    margin-top: 50%;
+    }
+    .footerSup h2 {
+    text-align: center;
+    }
+    .end {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 375px;
+    }
+    
+}
