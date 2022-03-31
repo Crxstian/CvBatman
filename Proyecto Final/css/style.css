@@ -11,12 +11,15 @@ h1,h3{
     color: #232C50;
 }
 .getStarted, .skills span, .footerSup, .emailButton form button{
+    cursor: pointer;
     background-color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .home{
     padding: 75.13px ; 
@@ -24,6 +27,7 @@ header{
 header nav ul{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 header nav ul li{
     color: #242E52;
@@ -37,51 +41,74 @@ button.getStarted{
     color: white;
     border: none;
 }
-h1{
-    font-size: 58px;
-    font-weight: bold;
-}
 main {
     display: flex;
     flex-direction: column;
-}
-main section.mainSuperior{
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 40px 150px;  
+    flex-wrap: wrap;
 }
-.textBanner{
+/* ------------TEXTO Y GRAFICO -----------*/
+main section.textBanner{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 76%;
+    flex-wrap: wrap;
+    /* background-color: grey; */
 }
-.textBanner div p{
+h1{
+    font-size: 58px;
+    font-weight: bold;
+    padding-right: 100px;
+}
+.textYbutton p{
     font-size: 16.5584px;
-    font-weight: 500;
+    font-weight: medium;
+    padding: 28px 360px 20px 0px;
 }
 .textYbutton{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items:flex-start;
+    flex-wrap: wrap;
+    width: 50%;
 } 
 .grafico{
-    margin-left: 146px;
+    width: 50%;
 }
-.textYbutton p{
-    padding: 28px 170px 20px 0px;
-}
+/* -------------PARTE DEL MEDIO CON SKILLS ----------*/
 .prospecto{
     display: flex;
-    margin-top: 180px;
+    justify-content: space-between;
+    margin-top: 160px;
+    width: 76%;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
 }
-h3{
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    flex-wrap: wrap;
+}
+.text h3{
     font-size: 36px;
     font-weight: bold;
 }
-section.text p{
-    padding-right: 200px;
-    padding-top: 36px;
+.text p{
+    padding: 28px 150px 0 0;
+}
+.items{
+    width: 50%;
+    height: 50vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.skills{
+    margin-bottom: 30px;
 }
 .skills span{
     padding: 10px 25px;
@@ -89,26 +116,23 @@ section.text p{
     color: white;
     border: none;
 }
-.items{
-    margin-left: 150px;
-}
-section.items h5{
+.skills h5{
     color: #323851;
     display: inline;
     font-size: 16px;
-    padding-left: 27px;
 }
-section.items p{
+.skills p{
+    margin-top: 20px;
+    padding-left: 70px;
+    padding-right: 100px;
     color: #B3B2B7;
-    padding-right: 0px;
-    padding-left: 100px;
-    padding-top: 20px;
 }
-/* Galeria What they´ve said */
+/* ----------GALERIA WHAT THEY'VE SAID  ------------*/
 .midFooter{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .midFooter h2 {
     color: #242E53;
@@ -118,8 +142,6 @@ section.items p{
     display: flex;
     align-items: center;
     margin-top: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
     flex-wrap: wrap;
 }
 .galeria .cards{
@@ -130,6 +152,7 @@ section.items p{
     height: 219px;
     background: #FAFAFA;
     position: relative;
+    flex-wrap: wrap;
 }
 .galeria .cards img{
     position: absolute;
@@ -151,11 +174,13 @@ section.items p{
     margin-top: 80px;
     margin-bottom: 200px;
 }
-/* Footer final */
+/* --------------FOOTER FINAL----------- */
 .footerSup{
+    display: flex;
     height: 247px;
+    flex-wrap: wrap;
 }
-footer header h2{
+.footerSup h2{
     color: white;
     font-size: 40px;
     width: 500px;
@@ -167,6 +192,7 @@ footer header h2{
     background-color: white;
     color:#F3603B;
     border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 .footerEnd{
     display: flex;
@@ -174,13 +200,23 @@ footer header h2{
     justify-content: space-around;
     align-items: center;
     height: 247px;
+    flex-wrap: wrap;
 }
-.logoSocialMedia .footerEnd{
+.footerEnd{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+.logoSocialMedia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .socialMedia{
+    display: flex;
     margin-top: 66px;
+    flex-wrap: wrap;
 }
 .socialMedia img{
     padding-right: 13.5px;
@@ -192,6 +228,16 @@ footer header h2{
 }
 .politicas{
     display: flex;
+    flex-wrap: wrap;
+}
+.formEnd{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.emailButton{
+    display: flex;
+    flex-wrap: wrap;
 }
 .emailButton form input{
     font-size: 13.18px;
@@ -206,21 +252,36 @@ footer header h2{
     color: white;
 }
 .copyRight{
+    display: flex;
+    flex-direction: column;
     margin-top: 66px;
     color: #8C8C94;
     font-size: 12.5px;
     text-align: end;
+    flex-wrap: wrap;
 }
 
-@media (max-width: 1250px) {
-    main section article.textBanner{
+@media (max-width: 375px) {
+    .navHeader, .home a{
+        display: none;
+    }
+    main section.textBanner{
+        flex-direction: column;
+        width: 100%;
+    }
+    .grafico{
+        size: 100vh;
+    }
+    .footerSup h2{
+        text-align: center;
+    }
+    .end{
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        width: 375px;
     }
-    section article{
 
-        width: 35%;
-    }
-}
+} 
 
 
