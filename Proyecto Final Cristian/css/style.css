@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* border:2px solid red; */
+}
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+h1,h3 {
+    color: #232c50;
+}
+.boton{
+    cursor: pointer;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-size: 13.18px;
+    padding: 12.5px 30.5px;
+    border-radius: 50px;
+    border: none;
+    
+}
+.botonNaranja{
+    background-color: #f3603b;
+    color: white;
+}
+.botonBlanco{
+    background-color: white;
+    color: #f3603b;
+}
+.getStarted,.emailButton form button {
+    cursor: pointer;
+    background-color: #f3603b;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 75.13px 20px;    
+}
+@media (min-width: 1280px){
+    header img.hamburguer{
+    display: none;
+    }
+    header {
+        padding: 75.13px;
+    }
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+header nav ul li {
+    color: #242e52;
+    font-size: 13px;
+    margin-left: 28px;
+}
+header nav ul a{
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* ------------TEXTO Y GRAFICO -----------*/
+main section.textBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+  /* background-color: grey; */
+}
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+    padding-right: 100px;
+}
+.textYbutton p {
+    font-size: 16.5584px;
+    font-weight: medium;
+    padding: 28px 360px 20px 0px;
+}
+.textYbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.grafico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.grafico img{
+    width: 80%;
+}
+/* -------------PARTE DEL MEDIO CON SKILLS ----------*/
+.prospecto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    width: 80%;
+    /* background-color: aqua; */
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.text h3 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-right: 100px;
+}
+.text p {
+    padding: 28px 300px 0 0;
+}
+.items {
+    width: 45%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.skills {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.skills h5 {
+    margin-top: 10px;
+    color: #323851;
+    display: inline-block;
+    font-size: 16px;
+}
+.skills span {
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    background-color: #f3603b;
+    margin-right: 23px;
+    font-weight: normal;
+}
+.skills p {
+    margin-top: 20px;
+    padding-left: 92px;
+    padding-right: 132px;
+    color: #b3b2b7;
+}
+/* ----------GALERIA WHAT THEY'VE SAID  ------------*/
+.midFooter {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.midFooter h2 {
+    color: #242e53;
+    font-size: 39.21px;
+}
+.galeria {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.galeria .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 445px;
+    height: 219px;
+    background: #fafafa;
+    position: relative;
+    flex-wrap: wrap;
+}
+.galeria .cards img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 180px;
+}
+.cards h5 {
+    color: #3f4868;
+    font-size: 16.07px;
+    margin-top: 80px;
+}
+.cards p {
+    color: #b9b9c1;
+    margin-top: 21px;
+    text-align: center;
+}
+.midFooter button {
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+/* --------------FOOTER FINAL----------- */
+.end{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footerSup {
+    background: #f3603b;
+    display: flex;
+    height: 247px;
+    flex-wrap: wrap;
+}
+.footerSup h2 {
+    color: white;
+    font-size: 40px;
+    width: 500px;
+}
+.footerEnd {
+    display: flex;
+    background-color: #1e1e26;
+    justify-content: space-around;
+    align-items: center;
+    height: 247px;
+    flex-wrap: wrap;
+}
+.footerEnd {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.logoSocialMedia {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.socialMedia {
+    display: flex;
+    margin-top: 66px;
+    flex-wrap: wrap;
+}
+.socialMedia img {
+    padding-right: 13.5px;
+}
+.socialMedia img:hover{
+    transform: scale(1.6);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.column ul li a:hover{
+    transform: scale(1.6);
+    transition: 1s;
+    color: #f3603b;
+}
+.politicas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.column ul li {
+    list-style: none;
+    padding: 12px 100px;
+}
+.column ul li a {
+    text-decoration: none;
+    color: white;
+}
+.formEnd {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.emailButton {
+    display: flex;
+    flex-wrap: wrap;
+}
+.emailButton form input {
+    font-size: 13.18px;
+    border-radius: 50vh;
+    border: none;
+    padding: 12.5px 48px 12.5px 10px;
+}
+.emailButton form button {
+    border-radius: 50vh;
+    border: none;
+    padding: 11.5px 22.5px;
+    color: white;
+}
+.copyRight {
+    display: flex;
+    flex-direction: column;
+    margin-top: 66px;
+    font-size: 12.5px;
+    text-align: end;
+    flex-wrap: wrap;
+}
+.copyRight a{
+    color: #8c8c94;
+}
+
+.navHeader ul a:hover{
+    transform: scale(1.6);
+    transition: 1s;
+    color: #8c8c94;
+}
+
+/* ----------------MOBILE 375PX --------------------*/
+@media (max-width: 375px) {
+    .navHeader,.home a,.first a {
+        display: none;
+        }
+    .textBanner{
+        flex-direction: column;
+    }
+    .textYbutton{
+        width: 100%;
+        align-items: center;
+    }
+    .textYbutton h1{
+        padding: 0px;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    article.grafico {
+        order: -1;
+        width: 100%;
+    }
+    article.grafico img{
+        width: 100%;
+    }
+    .textYbutton p {
+        padding: 0;
+        width: 100%;
+        text-align:center;
+        font-size: 16px;
+        color: #8c8c94;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .prospecto{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .prospecto .text{
+        width: 80%;
+    }
+    .prospecto p{
+        border: none;
+    }
+    .prospecto .text p{
+        color: #8c8c94;
+        font-size: 16px;
+        text-align:center;
+        padding: 0;
+        line-height: 30px;
+    }
+    .text h3{
+        padding: 0;
+        font-size: 36px;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .prospecto.items {
+        flex-direction: column;
+        width: 100%;
+    }
+    .items{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .skills{
+        margin-left: 20px;
+    }
+    .skills h5{
+        display: block;    
+        padding: 10px 10px 10px 10px;
+        font-size: 16px;
+        margin: 0;
+        background-color: #FEEDE6;
+    }
+    .skills p{
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .skills span{
+        margin: 0;
+        padding: 9px 25px;
+        font-size: 15px;
+    }
+    .midFooter{
+        margin-top: 10%;
+    }
+    .midFooter h2{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+
+    .midFooter{
+        width: 100%;
+    }
+    .galeria.cards {
+        width: 100%;
+        }
+    .cards#noMobile{
+        display: none;
+    }
+    .cards h5{
+        font-size: 16px;
+    }
+    .cards p{
+        width: 70%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .galeria {
+        width: 100%;
+        }
+
+    .midFooter button {
+        margin-bottom: 30%;
+    }
+    /*-------------FOOTER FINAL--------------------*/
+    .footerSup{
+        width: 100%;
+        height: 340px;
+        display: flex;
+    }
+    .footerSup h2{
+        width: 100%;
+        text-align: center;
+    }
+    .footerSup a button{
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .footerEnd {
+        flex-direction: column;
+        height: 650px;
+    }
+    .formEnd{
+        order: -2;
+    }
+    .politicas{
+        order: -1;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .logoSocialMedia{
+        width: 80%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .socialMedia{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .socialMedia img{
+        width: 30px;
+        height: 27px;
+        padding-right: 0px;
+    }
+    .column ul li {
+        padding: 7px 0;
+    }
+    .copyRight {
+        position: absolute;
+        top: 3160px;
+        left: 75px;
+        }
+    }
