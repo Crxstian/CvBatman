@@ -2,13 +2,16 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    /* border:2px solid red; */
 }
 body {
     font-family: "Be Vietnam Pro", sans-serif;
     font-size: 16px;
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
-h1,
-h3 {
+h1,h3 {
     color: #232c50;
 }
 .getStarted,.footerSup,.emailButton form button {
@@ -21,8 +24,18 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 75.13px;
+    padding: 75.13px 20px;    
 }
+@media (min-width: 1280px){
+    header img.hamburguer{
+    display: none;
+    }
+    header {
+        padding: 75.13px;
+    }
+
+}
+
 header nav ul {
     display: flex;
     list-style: none;
@@ -52,7 +65,7 @@ main section.textBanner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 76%;
+    width: 80%;
     flex-wrap: wrap;
   /* background-color: grey; */
 }
@@ -74,30 +87,38 @@ h1 {
     width: 50%;
 }
 .grafico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
+}
+.grafico img{
+    width: 80%;
 }
 /* -------------PARTE DEL MEDIO CON SKILLS ----------*/
 .prospecto {
     display: flex;
     justify-content: space-between;
     margin-top: 160px;
-    width: 76%;
+    width: 80%;
     /* background-color: aqua; */
 }
 .text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 50%;
 }
 .text h3 {
     font-size: 36px;
     font-weight: bold;
+    padding-right: 100px;
 }
 .text p {
-    padding: 28px 150px 0 0;
+    padding: 28px 300px 0 0;
 }
 .items {
-    height: 50vh;
+    width: 45%;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -105,11 +126,12 @@ h1 {
 .skills {
     margin-bottom: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 .skills h5 {
+    margin-top: 10px;
     color: #323851;
     display: inline-block;
     font-size: 16px;
@@ -131,6 +153,7 @@ h1 {
 }
 /* ----------GALERIA WHAT THEY'VE SAID  ------------*/
 .midFooter {
+    margin-top: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,6 +200,11 @@ h1 {
     margin-bottom: 200px;
 }
 /* --------------FOOTER FINAL----------- */
+.end{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .footerSup {
     display: flex;
     height: 247px;
@@ -272,74 +300,173 @@ h1 {
 }
 /* ----------------MOBILE 375PX --------------------*/
 @media (max-width: 375px) {
-    body header {
-    width: 100%;
+    .navHeader,.home a,header a {
+        display: none;
+        }
+    .textBanner{
+        flex-direction: column;
     }
-    .navHeader,
-    .home a,
-    header a {
-    display: none;
+    .textYbutton{
+        width: 100%;
+        align-items: center;
     }
-    main section.textBanner {
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+    .textYbutton h1{
+        padding: 0px;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
     }
-    .grafico img {
-    width: 100%;
+    article.grafico {
+        order: -1;
+        width: 100%;
     }
-    .grafico {
-    order: -1;
-    width: 100%;
-    }
-    .textYbutton {
-    align-items: center;
-    width: 100%;
-    }
-    .textYbutton h1,
-    .textYbutton p {
-    text-align: center;
+    article.grafico img{
+        width: 100%;
     }
     .textYbutton p {
-    padding: 0;
-    width: 375px;
-    text-align: center;
+        padding: 0;
+        width: 100%;
+        text-align:center;
+        font-size: 16px;
+        color: #8c8c94;
+        line-height: 24px;
+        margin-bottom: 20px;
     }
-    .prospecto {
-    width: 100%;
-    flex-direction: column;
+    .prospecto{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
-    .prospecto.text p {
-    justify-content: center;
+    .prospecto .text{
+        width: 80%;
+    }
+    .prospecto p{
+        border: none;
+    }
+    .prospecto .text p{
+        color: #8c8c94;
+        font-size: 16px;
+        text-align:center;
+        padding: 0;
+        line-height: 30px;
+    }
+    .text h3{
+        padding: 0;
+        font-size: 36px;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 20px;
     }
     .prospecto.items {
-    flex-direction: column;
+        flex-direction: column;
+        width: 100%;
     }
-    .text p {
-    text-align: center;
+    .items{
+        margin-top: 50px;
+        width: 100%;
     }
-    .skills p {
-    padding-left: 0%;
-    padding-right: 0%;
-    text-align: left;
+    .skills{
+        margin-left: 20px;
     }
-    .galeria {
-    width: 100%;
+    .skills h5{
+        display: block;    
+        padding: 10px 10px 10px 10px;
+        font-size: 16px;
+        margin: 0;
+        background-color: #FEEDE6;
+    }
+    .skills p{
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .skills span{
+        margin: 0;
+        padding: 9px 25px;
+        font-size: 15px;
+    }
+    .midFooter{
+        margin-top: 10%;
+    }
+    .midFooter h2{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+
+    .midFooter{
+        width: 100%;
     }
     .galeria.cards {
-    width: 100%;
+        width: 100%;
+        }
+    .cards#noMobile{
+        display: none;
     }
-    .midFooter {
-    margin-top: 50%;
+    .cards h5{
+        font-size: 16px;
     }
-    .footerSup h2 {
-    text-align: center;
+    .cards p{
+        width: 70%;
+        font-size: 12px;
+        line-height: 20px;
     }
-    .end {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 375px;
+    .galeria {
+        width: 100%;
+        }
+
+    .midFooter button {
+        margin-bottom: 30%;
+    }
+    /*-------------FOOTER FINAL--------------------*/
+    .footerSup{
+        width: 100%;
+        height: 340px;
+        display: flex;
+    }
+    .footerSup h2{
+        width: 100%;
+        text-align: center;
+    }
+    .footerSup a button{
+        border: 2px solid blue;
+    }
+    .footerEnd {
+        flex-direction: column;
+        height: 650px;
+    }
+    .formEnd{
+        order: -2;
+    }
+    .politicas{
+        order: -1;
+        width: 100%;
+        justify-content: space-evenly;
     }
     
-}
+    .logoSocialMedia{
+        width: 80%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .socialMedia{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .socialMedia img{
+        width: 30px;
+        height: 27px;
+        padding-right: 0px;
+    }
+    .column ul li {
+        padding: 7px 0;
+    }
+    .copyRight {
+        position: absolute;
+        top: 3160px;
+        left: 75px;
+        }
